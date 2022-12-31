@@ -1,4 +1,4 @@
-# TypeScript Template
+# Hot view graphql server 
 
 This repo is meant to act as a reasonable foundation for a single NPM package developed in TypeScript. It makes use of a few tools that we've found particularly useful. Below are some notes on how to get started using these tools and ways in which you might want (or need) to configure them.
 
