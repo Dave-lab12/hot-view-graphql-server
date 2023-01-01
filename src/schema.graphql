@@ -1,0 +1,27 @@
+type Query {
+  articlesForHome: [Article!]!
+  article(id: ID!): Article
+}
+# This "Book" type defines the queryable fields for every book in our data source.
+type Article {
+  id: ID!
+  title: String!
+  image: String
+  viewCount: Int
+  author: User
+  createdAt: String
+  updatedAt: String
+}
+type User {
+  id: ID!
+  name: String!
+  firstName: String!
+  lastName: String!
+  email: String!
+  role: Role
+}
+enum Role {
+  Admin
+  Editor
+  Subscriber
+}

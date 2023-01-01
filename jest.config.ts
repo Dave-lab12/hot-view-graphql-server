@@ -6,7 +6,7 @@ const config: Config.InitialOptions = {
   roots: ['src'],
   globals: {
     'ts-jest': {
-      tsconfig: 'tsconfig.test.json',
+      tsconfig: 'tsconfig.json',
     },
   },
   testRegex: '/__tests__/.*.test.ts$',
